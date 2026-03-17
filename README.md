@@ -5,6 +5,11 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 ## Problem Statement and Dataset
 
 
+The problem is to predict temperature, PM2.5 pollution levels, and solar radiation using environmental sensor data. The dataset used is a weather station dataset containing attributes such as time, temperature (tem), humidity (hum), pressure, wind speed, illumination, CO2, PM2.5, and solar radiation (tsr), which are used to train and test the Random Forest model.
+
+
+The dataset used is *weather-station-eee-block_2024_07_13.csv*, which contains time-series environmental sensor data including temperature (tem), humidity (hum), pressure, wind speed, illumination, CO2, PM2.5, and solar radiation (tsr).
+
 
 ## Equipments Required:
 1. Hardware – PCs
@@ -139,8 +144,9 @@ for target in targets:
 <img width="1254" height="98" alt="Screenshot 2026-03-17 132948" src="https://github.com/user-attachments/assets/3b8b5d0a-8d16-4007-9ced-8084d6fe7309" />
 
 
-
 <img width="822" height="930" alt="Screenshot 2026-03-17 133215" src="https://github.com/user-attachments/assets/aa50278b-360f-40a8-a8b6-acb1e602d079" />
 
 
 ## Result:
+
+Thus, the program to implement Random Forest for weather prediction is written and verified using Python programming.
